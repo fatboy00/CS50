@@ -23,7 +23,18 @@ int main(void)
         width = height;
 
 
-        // print pyramid //
+        // simple half pyramid //
+//        for (y = initial; y < (height + initial) ; y ++) {
+//            do {
+//                printf ("#");
+//                x = x + 1;
+//            } while (x < y);
+//           printf ("#\n");
+//            x = 1;
+//        }
+    
+        // now get steps right way round //
+//       printf("Pyramid right way round!\n");
         for (y = initial; y < (height + initial) ; y ++) {
             for ( x = width; x >= initial; x--){
                 if ( x < y) {
@@ -34,13 +45,8 @@ int main(void)
                 }
                 
             }
-            printf ("#  #");
-            for ( x = initial; x < (width + initial) ; x ++) {
-                if ( x < y) {
-                    printf ("#");
-                }
-            }
-            printf ("\n");
+            printf ("##\n");
+
 
         }
 
