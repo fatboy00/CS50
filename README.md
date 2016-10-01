@@ -1,3 +1,3 @@
-# pset1
-CS50 Problem Set 1 Solutions
+# CS50
+CS50 Problem Set Solutions 2016
 
