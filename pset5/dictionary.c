@@ -1,10 +1,6 @@
 /**
  * dictionary.c
  *
- * Computer Science 50
- * Problem Set 5
- *
- * Implements a dictionary's functionality.
  */
 
 #include <stdbool.h>
