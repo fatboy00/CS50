@@ -1,2 +1,3 @@
-# CS50
-CS50 Problem Sets
+# pset1
+CS50 Problem Set 1 Solutions
+
